@@ -46,7 +46,7 @@ export function ContactSection() {
             </div>
             <div style={{ display: 'flex', gap: 10, marginTop: 22, paddingTop: 20, borderTop: '2.5px solid var(--ink)', flexWrap: 'wrap' }}>
               <PTag color="violet">Instagram: no329_</PTag>
-              <a href="https://www.linkedin.com/in/%E8%8B%A5%E5%BA%AD-%E6%88%B4-12965524a/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+              <a href="https://www.linkedin.com/in/tina-dai-12965524a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <PTag color="violet" clickable>LinkedIn ↗</PTag>
               </a>
             </div>
