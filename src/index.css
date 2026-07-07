@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap');
+
+/* ── Color tokens ── */
+:root {
+  --violet: #6b2cd4;
+  --violet-deep: #4d1aa6;
+  --violet-soft: #8c54e6;
+  --red: #e83a1e;
+  --red-deep: #c22a10;
+  --gold: #f9a81e;
+  --gold-deep: #e08c00;
+  --gold-soft: #ffc24d;
+  --cream: #fff5e6;
+  --cream-dim: #f4e7cf;
+  --ink: #161210;
+  --ink-soft: #3a342e;
+  --white: #ffffff;
+  --lettuce: #5fbe3d;
+  --grape: #7c3dbe;
+
+  --surface-page: var(--cream);
+  --text-strong: var(--ink);
+  --text-body: var(--ink-soft);
+  --text-on-dark: var(--cream);
+  --text-muted: rgba(22,18,16,0.55);
+  --text-link: var(--red);
+
+  /* ── Typography ── */
+  --font-display: 'Baloo 2', 'Hanken Grotesk', system-ui, sans-serif;
+  --font-grotesk: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+  --font-jp: 'Noto Sans JP', 'Hanken Grotesk', sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, monospace;
+  --font-heading: var(--font-grotesk);
+  --font-body: var(--font-grotesk);
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 800;
+  --lh-tight: 0.92;
+  --lh-heading: 1.12;
+  --lh-body: 1.55;
+  --ls-tight: -0.02em;
+  --ls-display: -0.01em;
+
+  /* ── Spacing ── */
+  --content-max: 1240px;
+  --control-h-md: 48px;
+  --control-h-lg: 60px;
+
+  /* ── Radii ── */
+  --radius-sm: 10px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* ── Border widths ── */
+  --bw: 2.5px;
+  --bw-bold: 3.5px;
+
+  /* ── Pop shadows ── */
+  --pop-3: 3px 3px 0 var(--ink);
+  --pop-4: 4px 4px 0 var(--ink);
+  --pop-6: 6px 6px 0 var(--ink);
+  --pop-8: 8px 8px 0 var(--ink);
+
+  /* ── Motion ── */
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 120ms;
+  --dur: 200ms;
+
+  /* ── Sticker text ── */
+  --text-stroke: 2.5px;
+  --text-pop-offset: 4px;
+
+  --focus-ring: 0 0 0 3px var(--cream), 0 0 0 6px var(--violet);
+}
+
+/* ── Base reset ── */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-weight: var(--fw-medium);
+  font-size: 1rem;
+  line-height: var(--lh-body);
+  color: var(--text-strong);
+  background: var(--surface-page);
+  -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0 0 0.4em;
+  font-family: var(--font-heading);
+  font-weight: var(--fw-black);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--ls-tight);
+  color: var(--text-strong);
+}
+p { margin: 0 0 1em; }
+a { color: var(--text-link); text-decoration: none; font-weight: var(--fw-bold); }
+img, svg, video { display: block; max-width: 100%; }
+:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--radius-sm); }
+::selection { background: var(--gold); color: var(--ink); }
+
+/* ── Utility ── */
+.pl-sticker-text {
+  color: var(--white);
+  -webkit-text-stroke: var(--text-stroke) var(--ink);
+  paint-order: stroke fill;
+  text-shadow: 0 var(--text-pop-offset) 0 var(--ink), 0 calc(var(--text-pop-offset) + 1px) 0 var(--ink);
+  font-family: var(--font-display);
+  font-weight: var(--fw-black);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-display);
+}
+.pl-pressable {
+  transition: transform var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
+}
+.pl-pressable:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0 0 0 var(--ink) !important;
+}
+.pl-container { max-width: var(--content-max); margin-inline: auto; }
+
+/* ── Keyframes ── */
+@keyframes pl-tw {
+  0%,100% { transform: scale(1) rotate(0); opacity: .85; }
+  50%      { transform: scale(1.25) rotate(15deg); opacity: 1; }
+}
+@keyframes pl-marq {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes pl-ov {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Offset anchor scroll so sticky nav doesn't cover the target */
+section[id], header[id] {
+  scroll-margin-top: 72px;
+}
+
+/* ── RWD ── */
+@media (max-width: 700px) {
+  /* 防止整頁水平溢出 */
+  body { overflow-x: hidden; }
+  img { max-width: 100%; height: auto; }
+
+  /* Hero */
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .hero-text {
+    grid-column: 1 !important;
+  }
+  .hero-visual { display: none !important; }
+  .hero-planet-hide { display: none !important; }
+
+  /* About: photo + text 兩欄 → 直排 */
+  .about-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .about-photo {
+    max-width: 260px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Studio: minmax(320px) 改小 */
+  .studio-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Contact: form + info 兩欄 → 直排 */
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Contact 表單 name/email 兩欄 → 單欄 */
+  .contact-name-email {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* 描述文字不要 nowrap */
+  .no-wrap-mobile {
+    white-space: normal !important;
+  }
+
+  /* TabGallery mobile frame */
+  .tab-gallery-frame {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  /* NavBar hamburger */
+  .nav-hamburger { display: flex !important; }
+  .nav-right { display: none !important; }
+  .nav-right.open {
+    display: flex !important;
+    flex-direction: column;
+    position: fixed;
+    inset: 0;
+    top: 57px;
+    background: var(--violet);
+    padding: 24px 20px;
+    gap: 10px;
+    z-index: 199;
+    overflow-y: auto;
+  }
+
+  /* Pricing: popular card 不上移 */
+  .pricing-popular {
+    transform: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
