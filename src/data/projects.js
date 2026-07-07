@@ -3,7 +3,7 @@ const img = (path) => base + path.replace(/^\//, '');
 
 export const FREELANCE = [
   {
-    cat: 'brand', title: 'HRPlus Consulting', jp: 'エイチアールプラス · HR 諮詢官網', year: '2026', bg: 'var(--gold)', cover: img('/projects/covers/hrplus.png'), tags: ['品牌官網', 'RWD', 'React', 'Next.js'],
+    cat: 'brand', title: 'HRPlus Consulting', jp: 'エイチアールプラス · HR 諮詢官網', year: '2026', bg: 'var(--gold)', cover: img('/projects/covers/hrplus.webp'), tags: ['品牌官網', 'RWD', 'React', 'Next.js'],
     cs: {
       icon: '🤝', date: 'Created · 2026',
       intro: [
@@ -20,18 +20,18 @@ export const FREELANCE = [
       ],
       galleries: [
         { title: '畫面呈現', tabs: [
-          { label: '首頁',     src: img('/projects/HRPlus/hrplus-1.png'), ratio: '2880/6484' },
-          { label: '關於我們', src: img('/projects/HRPlus/hrplus-2.png'), ratio: '2880/7152' },
-          { label: '企業服務', src: img('/projects/HRPlus/hrplus-3.png'), ratio: '2880/8672' },
-          { label: '人才專區', src: img('/projects/HRPlus/hrplus-4.png'), ratio: '2880/5296' },
-          { label: '職涯洞察', src: img('/projects/HRPlus/hrplus-5.png'), ratio: '2880/7656' },
-          { label: '聯絡我們', src: img('/projects/HRPlus/hrplus-6.png'), ratio: '2880/3954' },
+          { label: '首頁',     src: img('/projects/HRPlus/hrplus-1.webp'), ratio: '2880/6484' },
+          { label: '關於我們', src: img('/projects/HRPlus/hrplus-2.webp'), ratio: '2880/7152' },
+          { label: '企業服務', src: img('/projects/HRPlus/hrplus-3.webp'), ratio: '2880/8672' },
+          { label: '人才專區', src: img('/projects/HRPlus/hrplus-4.webp'), ratio: '2880/5296' },
+          { label: '職涯洞察', src: img('/projects/HRPlus/hrplus-5.webp'), ratio: '2880/7656' },
+          { label: '聯絡我們', src: img('/projects/HRPlus/hrplus-6.webp'), ratio: '2880/3954' },
         ]},
       ],
     },
   },
   {
-    cat: 'brand', title: 'BLNC', jp: 'ブランク · 品牌官網', year: '2025', bg: 'var(--grape)', cover: img('/projects/covers/blnc.png'), tags: ['品牌官網', 'RWD', 'React', 'Next.JS'],
+    cat: 'brand', title: 'BLNC', jp: 'ブランク · 品牌官網', year: '2025', bg: 'var(--grape)', cover: img('/projects/covers/blnc.webp'), tags: ['品牌官網', 'RWD', 'React', 'Next.JS'],
     cs: {
       icon: '💊', date: 'Created · 2025',
       intro: [
@@ -50,22 +50,22 @@ export const FREELANCE = [
       ],
       galleries: [
         { title: '畫面呈現', tabs: [
-          { label: '首頁 / 關於我們',       src: img('/projects/BLNC/blnc-1.png'),   ratio: '2880/9980'  },
-          { label: '購買商品',   src: img('/projects/BLNC/blnc-3.png'),   ratio: '2880/9632'  },
-          { label: '產品介紹',   src: img('/projects/BLNC/blnc-3-1.png'), ratio: '2800/3202'  },
-          { label: '消費者好評', src: img('/projects/BLNC/blnc-4.png'),   ratio: '2274/3950'  },
-          { label: '健康專欄',   src: img('/projects/BLNC/blnc-5.png'),   ratio: '2850/4378'  },
-          { label: '聯絡我們',   src: img('/projects/BLNC/blnc-7.png'),   ratio: '2274/3510'  },
-          { label: '會員登入',   src: img('/projects/BLNC/blnc-6.png'),   ratio: '2274/2358',  group: '會員系統' },
-          { label: '會員註冊',   src: img('/projects/BLNC/blnc-6-3.png'), ratio: '2850/3134',  group: '會員系統' },
-          { label: '營養報告',   src: img('/projects/BLNC/blnc-6-1.png'), ratio: '2274/5578',  group: '會員系統' },
-          { label: '訂購方案',   src: img('/projects/BLNC/blnc-6-2.png'), ratio: '2274/3948',  group: '會員系統' },
+          { label: '首頁 / 關於我們',       src: img('/projects/BLNC/blnc-1.webp'),   ratio: '2880/9980'  },
+          { label: '購買商品',   src: img('/projects/BLNC/blnc-3.webp'),   ratio: '2880/9632'  },
+          { label: '產品介紹',   src: img('/projects/BLNC/blnc-3-1.webp'), ratio: '2800/3202'  },
+          { label: '消費者好評', src: img('/projects/BLNC/blnc-4.webp'),   ratio: '2274/3950'  },
+          { label: '健康專欄',   src: img('/projects/BLNC/blnc-5.webp'),   ratio: '2850/4378'  },
+          { label: '聯絡我們',   src: img('/projects/BLNC/blnc-7.webp'),   ratio: '2274/3510'  },
+          { label: '會員登入',   src: img('/projects/BLNC/blnc-6.webp'),   ratio: '2274/2358',  group: '會員系統' },
+          { label: '會員註冊',   src: img('/projects/BLNC/blnc-6-3.webp'), ratio: '2850/3134',  group: '會員系統' },
+          { label: '營養報告',   src: img('/projects/BLNC/blnc-6-1.webp'), ratio: '2274/5578',  group: '會員系統' },
+          { label: '訂購方案',   src: img('/projects/BLNC/blnc-6-2.webp'), ratio: '2274/3948',  group: '會員系統' },
         ]},
       ],
     },
   },
   {
-    cat: 'brand', title: 'CatHealth', jp: 'キャットヘルス · 貓咪捐血平台', year: '2025', bg: 'var(--red)', cover: img('/projects/covers/cathealth.png'), tags: ['品牌官網', 'RWD', 'React', 'Next.JS'],
+    cat: 'brand', title: 'CatHealth', jp: 'キャットヘルス · 貓咪捐血平台', year: '2025', bg: 'var(--red)', cover: img('/projects/covers/cathealth.webp'), tags: ['品牌官網', 'RWD', 'React', 'Next.JS'],
     cs: {
       icon: '🐱', date: 'Created · 2025',
       intro: [
@@ -84,22 +84,22 @@ export const FREELANCE = [
       ],
       galleries: [
         { title: '畫面呈現', tabs: [
-          { label: '首頁',       src: img('/projects/CatHealth/cathealth-home.png'),     ratio: '2344/13036' },
-          { label: '關於我們',   src: img('/projects/CatHealth/cathealth-about.png'),    ratio: '2344/3890'  },
-          { label: '協會願景',   src: img('/projects/CatHealth/cathealth-vision.png'),   ratio: '2344/15394' },
-          { label: '捐血資訊',   src: img('/projects/CatHealth/cathealth-donate.png'),   ratio: '2358/3634'  },
-          { label: '捐點查詢',   src: img('/projects/CatHealth/cathealth-location.png'), ratio: '2358/3678'  },
-          { label: '聯絡我們',   src: img('/projects/CatHealth/cathealth-contact.png'),  ratio: '2358/3474'  },
-          { label: '會員登入',   src: img('/projects/CatHealth/cathealth-login.png'),    ratio: '2358/2462', group: '會員系統 · 登入後可管理寵物資料、查看健康報告，動物醫院則有獨立的獸醫後台' },
-          { label: '寵物飼主 · 登入',   src: img('/projects/CatHealth/cathealth-member.png'),   ratio: '2358/2462', group: '會員系統 · 登入後可管理寵物資料、查看健康報告，動物醫院則有獨立的獸醫後台' },
-          { label: '動物醫院 · 登入',   src: img('/projects/CatHealth/cathealth-vet.png'),      ratio: '2358/2770', group: '會員系統 · 登入後可管理寵物資料、查看健康報告，動物醫院則有獨立的獸醫後台' },
-          { label: '會員註冊',   src: img('/projects/CatHealth/cathealth-register.png'), ratio: '2358/2582', group: '會員系統 · 登入後可管理寵物資料、查看健康報告，動物醫院則有獨立的獸醫後台' },
+          { label: '首頁',       src: img('/projects/CatHealth/cathealth-home.webp'),     ratio: '2344/13036' },
+          { label: '關於我們',   src: img('/projects/CatHealth/cathealth-about.webp'),    ratio: '2344/3890'  },
+          { label: '協會願景',   src: img('/projects/CatHealth/cathealth-vision.webp'),   ratio: '2344/15394' },
+          { label: '捐血資訊',   src: img('/projects/CatHealth/cathealth-donate.webp'),   ratio: '2358/3634'  },
+          { label: '捐點查詢',   src: img('/projects/CatHealth/cathealth-location.webp'), ratio: '2358/3678'  },
+          { label: '聯絡我們',   src: img('/projects/CatHealth/cathealth-contact.webp'),  ratio: '2358/3474'  },
+          { label: '會員登入',   src: img('/projects/CatHealth/cathealth-login.webp'),    ratio: '2358/2462', group: '會員系統 · 登入後可管理寵物資料、查看健康報告，動物醫院則有獨立的獸醫後台' },
+          { label: '寵物飼主 · 登入',   src: img('/projects/CatHealth/cathealth-member.webp'),   ratio: '2358/2462', group: '會員系統 · 登入後可管理寵物資料、查看健康報告，動物醫院則有獨立的獸醫後台' },
+          { label: '動物醫院 · 登入',   src: img('/projects/CatHealth/cathealth-vet.webp'),      ratio: '2358/2770', group: '會員系統 · 登入後可管理寵物資料、查看健康報告，動物醫院則有獨立的獸醫後台' },
+          { label: '會員註冊',   src: img('/projects/CatHealth/cathealth-register.webp'), ratio: '2358/2582', group: '會員系統 · 登入後可管理寵物資料、查看健康報告，動物醫院則有獨立的獸醫後台' },
         ]},
       ],
     },
   },
   {
-    cat: 'brand', title: 'Insight', jp: 'インサイト · 基因檢測平台', year: '2025', bg: 'var(--lettuce)', cover: img('/projects/covers/insight.png'), tags: ['品牌官網', 'RWD', 'React, Next.JS'],
+    cat: 'brand', title: 'Insight', jp: 'インサイト · 基因檢測平台', year: '2025', bg: 'var(--lettuce)', cover: img('/projects/covers/insight.webp'), tags: ['品牌官網', 'RWD', 'React, Next.JS'],
     cs: {
       icon: '🧬', date: 'Created · 2025',
       intro: [
@@ -118,21 +118,21 @@ export const FREELANCE = [
       ],
       galleries: [
         { title: '畫面呈現', tabs: [
-          { label: '關於我們',     src: img('/projects/Insight/insight-about.png'),    ratio: '2378/10402' },
-          { label: 'Gene Bank',   src: img('/projects/Insight/insight-genebank.png'),  ratio: '2378/3476'  },
-          { label: '基因檢測介紹', src: img('/projects/Insight/insight-genetic.png'),   ratio: '2378/9204'  },
-          { label: '檢測產品',     src: img('/projects/Insight/insight-products.png'),  ratio: '2378/2118'  },
-          { label: '特別優惠',     src: img('/projects/Insight/insight-promo.png'),     ratio: '2378/3296'  },
-          { label: '研究服務',     src: img('/projects/Insight/insight-research.png'),  ratio: '2378/3678'  },
-          { label: '聯絡我們',     src: img('/projects/Insight/insight-contact.png'),   ratio: '2378/2196'  },
-          { label: '會員資料',     src: img('/projects/Insight/insight-user.png'),      ratio: '2378/2002', group: '會員系統 · 登入後可查看訂單、管理個人資料與會員等級' },
-          { label: '購物車',       src: img('/projects/Insight/insight-cart.png'),      ratio: '2378/2096', group: '會員系統 · 登入後可查看訂單、管理個人資料與會員等級' },
+          { label: '關於我們',     src: img('/projects/Insight/insight-about.webp'),    ratio: '2378/10402' },
+          { label: 'Gene Bank',   src: img('/projects/Insight/insight-genebank.webp'),  ratio: '2378/3476'  },
+          { label: '基因檢測介紹', src: img('/projects/Insight/insight-genetic.webp'),   ratio: '2378/9204'  },
+          { label: '檢測產品',     src: img('/projects/Insight/insight-products.webp'),  ratio: '2378/2118'  },
+          { label: '特別優惠',     src: img('/projects/Insight/insight-promo.webp'),     ratio: '2378/3296'  },
+          { label: '研究服務',     src: img('/projects/Insight/insight-research.webp'),  ratio: '2378/3678'  },
+          { label: '聯絡我們',     src: img('/projects/Insight/insight-contact.webp'),   ratio: '2378/2196'  },
+          { label: '會員資料',     src: img('/projects/Insight/insight-user.webp'),      ratio: '2378/2002', group: '會員系統 · 登入後可查看訂單、管理個人資料與會員等級' },
+          { label: '購物車',       src: img('/projects/Insight/insight-cart.webp'),      ratio: '2378/2096', group: '會員系統 · 登入後可查看訂單、管理個人資料與會員等級' },
         ]},
       ],
     },
   },
   {
-    cat: 'brand', title: '官網 · 後台內容管理', jp: 'フォンスーン · 手機尋回平台', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/phonesoon.png'), tags: ['品牌官網', 'RWD', 'React', 'Next.js'],
+    cat: 'brand', title: '官網 · 後台內容管理', jp: 'フォンスーン · 手機尋回平台', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/phonesoon.webp'), tags: ['品牌官網', 'RWD', 'React', 'Next.js'],
     cs: {
       icon: '📱', date: 'Created · 2024',
       intro: [
@@ -149,17 +149,17 @@ export const FREELANCE = [
       ],
       galleries: [
         { title: '畫面呈現', tabs: [
-          { label: '首頁',       src: img('/projects/Phonesoon/website/phonesoon-1.jpg'), ratio: '1440/6495' },
-          { label: '撿到手機',   src: img('/projects/Phonesoon/website/phonesoon-2.jpg'), ratio: '1440/1427' },
-          { label: '遺失手機',   src: img('/projects/Phonesoon/website/phonesoon-3.jpg'), ratio: '1440/900',  tabnote: '點擊「遺失手機」後，會導向產品的使用者前台進行後續操作' },
-          { label: '推薦獎金',   src: img('/projects/Phonesoon/website/phonesoon-4.jpg'), ratio: '1440/2117' },
-          { label: '使用指南',   src: img('/projects/Phonesoon/website/phonesoon-5.jpg'), ratio: '1440/6691' },
-          { label: 'APP 介紹',   src: img('/projects/Phonesoon/website/phonesoon-6.jpg'), ratio: '1440/2638' },
-          { label: '常見問題',   src: img('/projects/Phonesoon/website/phonesoon-7.jpg'), ratio: '1440/3875' },
-          { label: '聯絡我們',   src: img('/projects/Phonesoon/website/phonesoon-8.jpg'), ratio: '1440/1265' },
+          { label: '首頁',       src: img('/projects/Phonesoon/website/phonesoon-1.webp'), ratio: '1440/6495' },
+          { label: '撿到手機',   src: img('/projects/Phonesoon/website/phonesoon-2.webp'), ratio: '1440/1427' },
+          { label: '遺失手機',   src: img('/projects/Phonesoon/website/phonesoon-3.webp'), ratio: '1440/900',  tabnote: '點擊「遺失手機」後，會導向產品的使用者前台進行後續操作' },
+          { label: '推薦獎金',   src: img('/projects/Phonesoon/website/phonesoon-4.webp'), ratio: '1440/2117' },
+          { label: '使用指南',   src: img('/projects/Phonesoon/website/phonesoon-5.webp'), ratio: '1440/6691' },
+          { label: 'APP 介紹',   src: img('/projects/Phonesoon/website/phonesoon-6.webp'), ratio: '1440/2638' },
+          { label: '常見問題',   src: img('/projects/Phonesoon/website/phonesoon-7.webp'), ratio: '1440/3875' },
+          { label: '聯絡我們',   src: img('/projects/Phonesoon/website/phonesoon-8.webp'), ratio: '1440/1265' },
         ]},
         { title: '後台系統', note: '官網設定後台供客戶管理各頁面內容，涵蓋首頁 Banner、常見問題、推薦獎金說明、APP 介紹、聯絡資訊與 Logo 設定，每個區塊均支援繁中／英文雙語獨立設定。', tabs: [
-          { label: '官網設定', src: img('/projects/Phonesoon/phonesoon-admin-1.jpg'), ratio: '1440/900' },
+          { label: '官網設定', src: img('/projects/Phonesoon/phonesoon-admin-1.webp'), ratio: '1440/900' },
         ]},
       ],
     },
@@ -221,7 +221,7 @@ export const FREELANCE = [
     },
   },
   {
-    cat: 'linebot', title: 'Runa 盧恩占卜', jp: 'ルーナ · LINE LIFF', year: '2025', bg: 'var(--ink)', cover: img('/projects/covers/runa.png'), tags: ['LINE LIFF', 'React', 'Framer Motion'],
+    cat: 'linebot', title: 'Runa 盧恩占卜', jp: 'ルーナ · LINE LIFF', year: '2025', bg: 'var(--ink)', cover: img('/projects/covers/runa.webp'), tags: ['LINE LIFF', 'React', 'Framer Motion'],
     cs: {
       icon: '🔮', date: 'Created · 2025',
       intro: [
@@ -239,18 +239,18 @@ export const FREELANCE = [
       ],
       galleries: [
         { title: '畫面呈現', mobile: true, tabs: [
-          { label: 'Linebot - Rich menu', src: img('/projects/Runa/runa-menu.png'), ratio: '1179/2556' },
-          { label: '歡迎頁',              src: img('/projects/Runa/runa-1.png'),    ratio: '1290/2796' },
-          { label: '問題解惑',            src: img('/projects/Runa/runa-2.png'),    ratio: '1290/2796' },
-          { label: '選符文石',            src: img('/projects/Runa/runa-3.png'),    ratio: '1290/2796' },
-          { label: '滑動選擇符文石',      src: img('/projects/Runa/runa-4.png'),    ratio: '1290/2796' },
-          { label: 'AI 解析',             src: img('/projects/Runa/runa-5.png'),    ratio: '1290/2796' },
+          { label: 'Linebot - Rich menu', src: img('/projects/Runa/runa-menu.webp'), ratio: '1179/2556' },
+          { label: '歡迎頁',              src: img('/projects/Runa/runa-1.webp'),    ratio: '1290/2796' },
+          { label: '問題解惑',            src: img('/projects/Runa/runa-2.webp'),    ratio: '1290/2796' },
+          { label: '選符文石',            src: img('/projects/Runa/runa-3.webp'),    ratio: '1290/2796' },
+          { label: '滑動選擇符文石',      src: img('/projects/Runa/runa-4.webp'),    ratio: '1290/2796' },
+          { label: 'AI 解析',             src: img('/projects/Runa/runa-5.webp'),    ratio: '1290/2796' },
         ]},
       ],
     },
   },
   {
-    cat: 'linebot', title: '診所預約系統', jp: 'クリニック · LINE LIFF', year: '2025', bg: 'var(--sky, #4aa8c8)', cover: img('/projects/covers/clinic.avif'), tags: ['LINE LIFF', 'React', 'TypeScript', 'Tailwind CSS'],
+    cat: 'linebot', title: '診所預約系統', jp: 'クリニック · LINE LIFF', year: '2025', bg: 'var(--sky, #4aa8c8)', cover: img('/projects/covers/clinic.webp'), tags: ['LINE LIFF', 'React', 'TypeScript', 'Tailwind CSS'],
     cs: {
       icon: '🏥', date: 'Created · 2025',
       intro: [
@@ -268,18 +268,18 @@ export const FREELANCE = [
       ],
       galleries: [
         { title: '畫面呈現', mobile: true, tabs: [
-          { label: '診所資訊',   src: [img('/projects/clinic/clinic-info-1.png'), img('/projects/clinic/clinic-info-2.png')],        ratio: '1290/3957' },
-          { label: '門診預約',   src: [img('/projects/clinic/clinic-reserve-1.png'), img('/projects/clinic/clinic-reserve-2.png'), img('/projects/clinic/clinic-reserve-3.png'), img('/projects/clinic/clinic-reserve-4.png')], ratio: '1290/3267' },
-          { label: '查詢預約',   src: [img('/projects/clinic/clinic-check-1.png'), img('/projects/clinic/clinic-check-2.png')],      ratio: '1290/2796' },
-          { label: '看診進度',   src: img('/projects/clinic/clinic-progress-1.png'), ratio: '1290/3267' },
-          { label: '客戶諮詢',   src: img('/projects/clinic/clinic-consult-1.png'),  ratio: '1290/4935' },
-          { label: '看診資訊設定', src: [img('/projects/clinic/clinic-user-1.png'), img('/projects/clinic/clinic-user-2.png')],     ratio: '1290/3267' },
+          { label: '診所資訊',   src: [img('/projects/clinic/clinic-info-1.webp'), img('/projects/clinic/clinic-info-2.webp')],        ratio: '1290/3957' },
+          { label: '門診預約',   src: [img('/projects/clinic/clinic-reserve-1.webp'), img('/projects/clinic/clinic-reserve-2.webp'), img('/projects/clinic/clinic-reserve-3.webp'), img('/projects/clinic/clinic-reserve-4.webp')], ratio: '1290/3267' },
+          { label: '查詢預約',   src: [img('/projects/clinic/clinic-check-1.webp'), img('/projects/clinic/clinic-check-2.webp')],      ratio: '1290/2796' },
+          { label: '看診進度',   src: img('/projects/clinic/clinic-progress-1.webp'), ratio: '1290/3267' },
+          { label: '客戶諮詢',   src: img('/projects/clinic/clinic-consult-1.webp'),  ratio: '1290/4935' },
+          { label: '看診資訊設定', src: [img('/projects/clinic/clinic-user-1.webp'), img('/projects/clinic/clinic-user-2.webp')],     ratio: '1290/3267' },
         ]},
       ],
     },
   },
   {
-    cat: 'admin', title: 'CV/IV Curve Extraction', jp: 'シービーアイブイ · 量測後台', year: '2026', bg: 'var(--sky)', cover: img('/projects/covers/CVIV.png'), tags: ['React', 'TypeScript', 'MUI', 'Zustand'],
+    cat: 'admin', title: 'CV/IV Curve Extraction', jp: 'シービーアイブイ · 量測後台', year: '2026', bg: 'var(--sky)', cover: img('/projects/covers/CVIV.webp'), tags: ['React', 'TypeScript', 'MUI', 'Zustand'],
     cs: {
       icon: '📊', date: 'Created · 2026',
       intro: [
@@ -294,17 +294,17 @@ export const FREELANCE = [
       ],
       galleries: [
         { title: '畫面呈現', tabs: [
-          { label: 'Login', src: img('/projects/CVIV/CVIV-1.png'), ratio: '1440/900' },
-          { label: 'Running', src: img('/projects/CVIV/CVIV-2.png'), ratio: '1440/900' },
-          { label: 'Completed', src: img('/projects/CVIV/CVIV-3.png'), ratio: '1440/900' },
-          { label: 'Detail', src: img('/projects/CVIV/CVIV-4.png'), ratio: '1440/900' },
-          { label: 'Create', src: img('/projects/CVIV/CVIV-5.png'), ratio: '1440/900' },
+          { label: 'Login', src: img('/projects/CVIV/CVIV-1.webp'), ratio: '1440/900' },
+          { label: 'Running', src: img('/projects/CVIV/CVIV-2.webp'), ratio: '1440/900' },
+          { label: 'Completed', src: img('/projects/CVIV/CVIV-3.webp'), ratio: '1440/900' },
+          { label: 'Detail', src: img('/projects/CVIV/CVIV-4.webp'), ratio: '1440/900' },
+          { label: 'Create', src: img('/projects/CVIV/CVIV-5.webp'), ratio: '1440/900' },
         ]},
       ],
     },
   },
   {
-    cat: 'admin', title: 'Phonesoon 管理後台', jp: 'フォンスーン · 運営管理システム', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/phonesoon.png'), tags: ['Next.js', 'MUI', 'i18n', 'Tailwind CSS'],
+    cat: 'admin', title: 'Phonesoon 管理後台', jp: 'フォンスーン · 運営管理システム', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/phonesoon.webp'), tags: ['Next.js', 'MUI', 'i18n', 'Tailwind CSS'],
     cs: {
       icon: '🛠️', date: 'Created · 2024',
       intro: [
@@ -329,20 +329,20 @@ export const FREELANCE = [
         title: '畫面呈現',
         galleries: [
           { title: '管理員後台', tabs: [
-            { label: '會員管理',       src: img('/projects/Phonesoon/admin/phonesoon-admin-1.jpg'),   ratio: '1440/900'  },
-            { label: '遺失申報管理',   src: img('/projects/Phonesoon/admin/phonesoon-admin-2.jpg'),   ratio: '1440/900'  },
-            { label: '提款管理',       src: img('/projects/Phonesoon/admin/phonesoon-admin-3.jpg'),   ratio: '1440/900'  },
-            { label: '提款管理-操作', src: img('/projects/Phonesoon/admin/phonesoon-admin-3-1.jpg'), ratio: '1440/900'  },
-            { label: '推薦紀錄',       src: img('/projects/Phonesoon/admin/phonesoon-admin-4.jpg'),   ratio: '1440/900'  },
-            { label: '報表管理',       src: img('/projects/Phonesoon/admin/phonesoon-admin-5.jpg'),   ratio: '1440/1314' },
-            { label: '官網設定',       src: img('/projects/Phonesoon/admin/phonesoon-admin-6.jpg'),   ratio: '1440/2890' },
+            { label: '會員管理',       src: img('/projects/Phonesoon/admin/phonesoon-admin-1.webp'),   ratio: '1440/900'  },
+            { label: '遺失申報管理',   src: img('/projects/Phonesoon/admin/phonesoon-admin-2.webp'),   ratio: '1440/900'  },
+            { label: '提款管理',       src: img('/projects/Phonesoon/admin/phonesoon-admin-3.webp'),   ratio: '1440/900'  },
+            { label: '提款管理-操作', src: img('/projects/Phonesoon/admin/phonesoon-admin-3-1.webp'), ratio: '1440/900'  },
+            { label: '推薦紀錄',       src: img('/projects/Phonesoon/admin/phonesoon-admin-4.webp'),   ratio: '1440/900'  },
+            { label: '報表管理',       src: img('/projects/Phonesoon/admin/phonesoon-admin-5.webp'),   ratio: '1440/1314' },
+            { label: '官網設定',       src: img('/projects/Phonesoon/admin/phonesoon-admin-6.webp'),   ratio: '1440/2890' },
           ]},
           { title: '會員前台', tabs: [
-            { label: '首頁',         src: img('/projects/Phonesoon/member/phonesoon-member-1.jpg'), ratio: '1440/900' },
-            { label: '遺失通報紀錄', src: img('/projects/Phonesoon/member/phonesoon-member-2.jpg'), ratio: '1440/900' },
-            { label: '購買紀錄',     src: img('/projects/Phonesoon/member/phonesoon-member-3.jpg'), ratio: '1440/900' },
-            { label: '推薦紀錄',     src: img('/projects/Phonesoon/member/phonesoon-member-4.jpg'), ratio: '1440/900' },
-            { label: '提領紀錄',     src: img('/projects/Phonesoon/member/phonesoon-member-5.jpg'), ratio: '1440/900' },
+            { label: '首頁',         src: img('/projects/Phonesoon/member/phonesoon-member-1.webp'), ratio: '1440/900' },
+            { label: '遺失通報紀錄', src: img('/projects/Phonesoon/member/phonesoon-member-2.webp'), ratio: '1440/900' },
+            { label: '購買紀錄',     src: img('/projects/Phonesoon/member/phonesoon-member-3.webp'), ratio: '1440/900' },
+            { label: '推薦紀錄',     src: img('/projects/Phonesoon/member/phonesoon-member-4.webp'), ratio: '1440/900' },
+            { label: '提領紀錄',     src: img('/projects/Phonesoon/member/phonesoon-member-5.webp'), ratio: '1440/900' },
           ]},
         ],
       },
@@ -385,7 +385,7 @@ export const COMPANIES = [
 
 export const FULLTIME = [
   {
-    title: '車行管理系統', company: 'robins', jp: '車両管理 · AUTO DEALER', year: '2025', bg: 'var(--red)', cover: img('/projects/covers/car-dealer.png'), tags: ['System', 'Web', 'Vue'],
+    title: '車行管理系統', company: 'robins', jp: '車両管理 · AUTO DEALER', year: '2025', bg: 'var(--red)', cover: img('/projects/covers/car-dealer.webp'), tags: ['System', 'Web', 'Vue'],
     cs: {
       icon: '🚗', date: 'Created · 2025',
       status: '本產品已完成開發並正式上線，目前進入持續維運階段。',
@@ -399,12 +399,12 @@ export const FULLTIME = [
         ['共享租車', '提供車輛管理與出租功能，可即時監控車輛位置與使用狀況'],
       ],
       galleries: [
-        { title: '畫面呈現', cols: 1, blocks: [{ label: '保單管理 · 保單總覽 / 上傳保單 / 建立保單 / 續保管理', src: img('/projects/car-dealer/policy.png'), tone: 'var(--red)' }, { label: '詢價系統 · 新增詢價申請 / 詢價紀錄', src: img('/projects/car-dealer/inquiry.png'), tone: 'var(--red)' }, { label: '共享租車 · 共享出租 / 行動派車 / 車輛管理 / 駕駛人管理 / 報聘書', src: img('/projects/car-dealer/rental.png'), tone: 'var(--red)' }] },
+        { title: '畫面呈現', cols: 1, blocks: [{ label: '保單管理 · 保單總覽 / 上傳保單 / 建立保單 / 續保管理', src: img('/projects/car-dealer/policy.webp'), tone: 'var(--red)' }, { label: '詢價系統 · 新增詢價申請 / 詢價紀錄', src: img('/projects/car-dealer/inquiry.webp'), tone: 'var(--red)' }, { label: '共享租車 · 共享出租 / 行動派車 / 車輛管理 / 駕駛人管理 / 報聘書', src: img('/projects/car-dealer/rental.webp'), tone: 'var(--red)' }] },
       ],
     },
   },
   {
-    title: '車險平台', company: 'robins', jp: '汽車保険 · INSURTECH', year: '2025', bg: 'var(--red)', cover: img('/projects/covers/car-insurance.png'), tags: ['System', 'Web', 'Vue'],
+    title: '車險平台', company: 'robins', jp: '汽車保険 · INSURTECH', year: '2025', bg: 'var(--red)', cover: img('/projects/covers/car-insurance.webp'), tags: ['System', 'Web', 'Vue'],
     cs: {
       icon: '🚘', date: 'Created · 2025',
       status: '本產品已完成開發並正式上線，目前進入持續維運階段。',
@@ -421,29 +421,29 @@ export const FULLTIME = [
       ],
       galleries: [
         { title: '客戶端投保流程', cols: 1, blocks: [
-          { label: 'STEP1 · 車主資料', joined: true, srcs: [img('/projects/car-insurance/step1-1.png'), img('/projects/car-insurance/step1-2.png')] },
-          { label: 'STEP1 · 確認車籍資料', src: img('/projects/car-insurance/step1-3.png') },
-          { label: 'STEP1 · 車籍資料 / 保險日期', joined: true, srcs: [img('/projects/car-insurance/step1-4.png'), img('/projects/car-insurance/step1-5.png')] },
-          { label: '登入 / 註冊', src: img('/projects/car-insurance/login.png') },
-          { label: 'STEP2 · 熱門推薦', src: img('/projects/car-insurance/step2-1.png') },
-          { label: 'STEP2 · 自選內容（側欄）', src: img('/projects/car-insurance/step2-2.png') },
-          { label: 'STEP2 · 自選內容 / 試算結果', joined: true, srcs: [img('/projects/car-insurance/step2-3.png'), img('/projects/car-insurance/step2-4.png')] },
-          { label: 'STEP3 · 商品摘要', src: img('/projects/car-insurance/step3-1.png') },
-          { label: 'STEP3 · 車主 / 要保人資料填寫', joined: true, srcs: [img('/projects/car-insurance/step3-2.png'), img('/projects/car-insurance/step3-3.png')] },
-          { label: 'STEP3 · 個資告知書與條款', joined: true, srcs: [img('/projects/car-insurance/step3-4.png'), img('/projects/car-insurance/step3-5.png')] },
-          { label: 'STEP3 · 商品確認', src: img('/projects/car-insurance/step3-6.png') },
-          { label: 'STEP3 · 資料確認', joined: true, srcs: [img('/projects/car-insurance/step3-7.png'), img('/projects/car-insurance/step3-8.png'), img('/projects/car-insurance/step3-9.png')] },
-          { label: 'STEP4 · 簽名驗證', src: img('/projects/car-insurance/step4-1.png') },
-          { label: 'STEP4 · 要保書簽名', src: img('/projects/car-insurance/step4-2.png') },
-          { label: 'STEP4 · 簽名文件', src: img('/projects/car-insurance/step4-3.png') },
-          { label: 'STEP4 · 線上付款', src: img('/projects/car-insurance/step4-4.png') },
-          { label: 'STEP5 · 投保成功', src: img('/projects/car-insurance/step5.png') },
+          { label: 'STEP1 · 車主資料', joined: true, srcs: [img('/projects/car-insurance/step1-1.webp'), img('/projects/car-insurance/step1-2.webp')] },
+          { label: 'STEP1 · 確認車籍資料', src: img('/projects/car-insurance/step1-3.webp') },
+          { label: 'STEP1 · 車籍資料 / 保險日期', joined: true, srcs: [img('/projects/car-insurance/step1-4.webp'), img('/projects/car-insurance/step1-5.webp')] },
+          { label: '登入 / 註冊', src: img('/projects/car-insurance/login.webp') },
+          { label: 'STEP2 · 熱門推薦', src: img('/projects/car-insurance/step2-1.webp') },
+          { label: 'STEP2 · 自選內容（側欄）', src: img('/projects/car-insurance/step2-2.webp') },
+          { label: 'STEP2 · 自選內容 / 試算結果', joined: true, srcs: [img('/projects/car-insurance/step2-3.webp'), img('/projects/car-insurance/step2-4.webp')] },
+          { label: 'STEP3 · 商品摘要', src: img('/projects/car-insurance/step3-1.webp') },
+          { label: 'STEP3 · 車主 / 要保人資料填寫', joined: true, srcs: [img('/projects/car-insurance/step3-2.webp'), img('/projects/car-insurance/step3-3.webp')] },
+          { label: 'STEP3 · 個資告知書與條款', joined: true, srcs: [img('/projects/car-insurance/step3-4.webp'), img('/projects/car-insurance/step3-5.webp')] },
+          { label: 'STEP3 · 商品確認', src: img('/projects/car-insurance/step3-6.webp') },
+          { label: 'STEP3 · 資料確認', joined: true, srcs: [img('/projects/car-insurance/step3-7.webp'), img('/projects/car-insurance/step3-8.webp'), img('/projects/car-insurance/step3-9.webp')] },
+          { label: 'STEP4 · 簽名驗證', src: img('/projects/car-insurance/step4-1.webp') },
+          { label: 'STEP4 · 要保書簽名', src: img('/projects/car-insurance/step4-2.webp') },
+          { label: 'STEP4 · 簽名文件', src: img('/projects/car-insurance/step4-3.webp') },
+          { label: 'STEP4 · 線上付款', src: img('/projects/car-insurance/step4-4.webp') },
+          { label: 'STEP5 · 投保成功', src: img('/projects/car-insurance/step5.webp') },
         ] },
       ],
     },
   },
   {
-    title: '業務員 SaaS', company: 'robins', jp: '保険代理 · SAAS PLATFORM', year: '2024', bg: 'var(--grape)', cover: img('/projects/covers/saas.png'), tags: ['System', 'SaaS', 'Web', 'Vue'],
+    title: '業務員 SaaS', company: 'robins', jp: '保険代理 · SAAS PLATFORM', year: '2024', bg: 'var(--grape)', cover: img('/projects/covers/saas.webp'), tags: ['System', 'SaaS', 'Web', 'Vue'],
     cs: {
       icon: '📋', date: 'Created · 2024',
       status: '本產品已完成開發並正式上線，目前進入持續維運階段。',
@@ -462,22 +462,22 @@ export const FULLTIME = [
         ['系統通知', '客戶聯繫、通知保單狀態、系統問題'],
       ],
       galleries: [
-        { title: '畫面呈現', cols: 1, blocks: [{ label: '首頁 · 保險總覽 · 建立保單 · 保單查詢', src: img('/projects/saas/screens-1.png'), tone: 'var(--grape)' }, { label: '保單分析 · 工具專區 · 業務與管理 · 系統通知', src: img('/projects/saas/screens-2.png'), tone: 'var(--grape)' }] },
+        { title: '畫面呈現', cols: 1, blocks: [{ label: '首頁 · 保險總覽 · 建立保單 · 保單查詢', src: img('/projects/saas/screens-1.webp'), tone: 'var(--grape)' }, { label: '保單分析 · 工具專區 · 業務與管理 · 系統通知', src: img('/projects/saas/screens-2.webp'), tone: 'var(--grape)' }] },
         { title: '批次匯入 · 建立保單', cols: 1, blocks: [
-          { label: '紀錄總覽', src: img('/projects/car-insurance/admin-1.png') },
-          { label: '批次匯入 · 上傳檔案', src: img('/projects/car-insurance/admin-2.png') },
-          { label: '保單查詢', src: img('/projects/car-insurance/admin-3.png') },
-          { label: '新增保單 · 車主資料', src: img('/projects/car-insurance/admin-4.png') },
-          { label: '新增保單 · 車籍資料 / 投保時間', src: img('/projects/car-insurance/admin-5.png') },
-          { label: '新增保單 · 選擇方案', src: img('/projects/car-insurance/admin-6.png') },
-          { label: '新增保單 · 被保人 / 要保人資料', joined: true, srcs: [img('/projects/car-insurance/admin-7.png'), img('/projects/car-insurance/admin-8.png')] },
-          { label: '投保完成通知', src: img('/projects/car-insurance/admin-9.png') },
+          { label: '紀錄總覽', src: img('/projects/car-insurance/admin-1.webp') },
+          { label: '批次匯入 · 上傳檔案', src: img('/projects/car-insurance/admin-2.webp') },
+          { label: '保單查詢', src: img('/projects/car-insurance/admin-3.webp') },
+          { label: '新增保單 · 車主資料', src: img('/projects/car-insurance/admin-4.webp') },
+          { label: '新增保單 · 車籍資料 / 投保時間', src: img('/projects/car-insurance/admin-5.webp') },
+          { label: '新增保單 · 選擇方案', src: img('/projects/car-insurance/admin-6.webp') },
+          { label: '新增保單 · 被保人 / 要保人資料', joined: true, srcs: [img('/projects/car-insurance/admin-7.webp'), img('/projects/car-insurance/admin-8.webp')] },
+          { label: '投保完成通知', src: img('/projects/car-insurance/admin-9.webp') },
         ] },
       ],
     },
   },
   {
-    title: '旅平險平台', company: 'robins', jp: '旅行保険 · INSURTECH', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/travel-insurance.png'), tags: ['System', 'Web', 'Vue'],
+    title: '旅平險平台', company: 'robins', jp: '旅行保険 · INSURTECH', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/travel-insurance.webp'), tags: ['System', 'Web', 'Vue'],
     cs: {
       icon: '✈️', date: 'Created ·2024',
       status: '本產品已完成開發並正式上線，目前進入持續維運階段。',
@@ -494,13 +494,13 @@ export const FULLTIME = [
         ['完成投保', '完成投保並即時生效'],
       ],
       galleries: [
-        { title: '畫面呈現', note: '投保流程', cols: 1, joined: true, blocks: [{ label: '投保流程 1', src: img('/projects/travel-insurance/flow-1.png'), tone: 'var(--violet)' }, { label: '投保流程 2', src: img('/projects/travel-insurance/flow-2.png'), tone: 'var(--violet)' }, { label: '投保流程 3', src: img('/projects/travel-insurance/flow-3.png'), tone: 'var(--violet)' }] },
-        { title: '雙色版本', note: '系統每 12 小時自動切換一次平台配色。', cols: 1, blocks: [{ label: '雙色版本', src: img('/projects/travel-insurance/dual-color.png'), ratio: '1878/582', tone: 'var(--violet)' }] },
+        { title: '畫面呈現', note: '投保流程', cols: 1, joined: true, blocks: [{ label: '投保流程 1', src: img('/projects/travel-insurance/flow-1.webp'), tone: 'var(--violet)' }, { label: '投保流程 2', src: img('/projects/travel-insurance/flow-2.webp'), tone: 'var(--violet)' }, { label: '投保流程 3', src: img('/projects/travel-insurance/flow-3.webp'), tone: 'var(--violet)' }] },
+        { title: '雙色版本', note: '系統每 12 小時自動切換一次平台配色。', cols: 1, blocks: [{ label: '雙色版本', src: img('/projects/travel-insurance/dual-color.webp'), ratio: '1878/582', tone: 'var(--violet)' }] },
       ],
     },
   },
   {
-    title: 'Linebot - SaaS', company: 'robins', jp: 'ラインボット · INSURTECH', year: '2024', bg: 'var(--lettuce)', cover: img('/projects/covers/linebot.png'), tags: ['LINE Bot', 'SaaS'],
+    title: 'Linebot - SaaS', company: 'robins', jp: 'ラインボット · INSURTECH', year: '2024', bg: 'var(--lettuce)', cover: img('/projects/covers/linebot.webp'), tags: ['LINE Bot', 'SaaS'],
     cs: {
       icon: '💬', date: 'Created · 2024',
       intro: [
@@ -513,14 +513,14 @@ export const FULLTIME = [
         ['一鍵綁定', '原 SaaS 系統帳號快速連結，無須重新註冊'],
       ],
       galleries: [
-        { title: '一般使用者', note: '透過 LINE 取得個人保單資訊', blocks: [{ label: '保單查詢', src: img('/projects/linebot/user-1.jpg'), tone: 'var(--lettuce)' }, { label: '保單明細', src: img('/projects/linebot/user-2.jpg'), tone: 'var(--lettuce)' }] },
-        { title: '投保通知', note: '業務替使用者進行投保時，推播訊息到使用者 LINE', cols: 1, blocks: [{ label: '投保通知', src: img('/projects/linebot/notify.jpg'), tone: 'var(--lettuce)', maxWidth: '360px' }] },
-        { title: '業務員版本', note: '業務員可在 LINE 上查看佣金紀錄', cols: 1, blocks: [{ label: '佣金紀錄', src: img('/projects/linebot/agent.jpg'), tone: 'var(--lettuce)', maxWidth: '360px' }] },
+        { title: '一般使用者', note: '透過 LINE 取得個人保單資訊', blocks: [{ label: '保單查詢', src: img('/projects/linebot/user-1.webp'), tone: 'var(--lettuce)' }, { label: '保單明細', src: img('/projects/linebot/user-2.webp'), tone: 'var(--lettuce)' }] },
+        { title: '投保通知', note: '業務替使用者進行投保時，推播訊息到使用者 LINE', cols: 1, blocks: [{ label: '投保通知', src: img('/projects/linebot/notify.webp'), tone: 'var(--lettuce)', maxWidth: '360px' }] },
+        { title: '業務員版本', note: '業務員可在 LINE 上查看佣金紀錄', cols: 1, blocks: [{ label: '佣金紀錄', src: img('/projects/linebot/agent.webp'), tone: 'var(--lettuce)', maxWidth: '360px' }] },
       ],
     },
   },
   {
-    title: '科技公司官網', company: 'robins', jp: '企業サイト · DUAL THEME', year: '2024', bg: 'var(--gold)', cover: img('/projects/covers/robins-site.png'), tags: ['品牌官網', 'Vue', 'RWD', 'Animation'],
+    title: '科技公司官網', company: 'robins', jp: '企業サイト · DUAL THEME', year: '2024', bg: 'var(--gold)', cover: img('/projects/covers/robins-site.webp'), tags: ['品牌官網', 'Vue', 'RWD', 'Animation'],
     cs: {
       icon: '🌐', date: 'Created · 2024',
       intro: [
@@ -535,28 +535,28 @@ export const FULLTIME = [
       ],
       galleries: [
         { title: '版本 1（6:00 ~ 18:00）', cols: 1, blocks: [
-          { label: '首頁', joined: true, srcs: [img('/projects/robins-site/v1-home-1.png'), img('/projects/robins-site/v1-home-2.png'), img('/projects/robins-site/v1-home-3.png')] },
-          { label: 'Menu', src: img('/projects/robins-site/v1-menu.png') },
-          { label: '最新消息', src: img('/projects/robins-site/v1-news.png') },
-          { label: '相關服務', joined: true, srcs: [img('/projects/robins-site/v1-service-1.png'), img('/projects/robins-site/v1-service-2.png'), img('/projects/robins-site/v1-service-3.png'), img('/projects/robins-site/v1-service-4.png'), img('/projects/robins-site/v1-service-5.png')] },
+          { label: '首頁', joined: true, srcs: [img('/projects/robins-site/v1-home-1.webp'), img('/projects/robins-site/v1-home-2.webp'), img('/projects/robins-site/v1-home-3.webp')] },
+          { label: 'Menu', src: img('/projects/robins-site/v1-menu.webp') },
+          { label: '最新消息', src: img('/projects/robins-site/v1-news.webp') },
+          { label: '相關服務', joined: true, srcs: [img('/projects/robins-site/v1-service-1.webp'), img('/projects/robins-site/v1-service-2.webp'), img('/projects/robins-site/v1-service-3.webp'), img('/projects/robins-site/v1-service-4.webp'), img('/projects/robins-site/v1-service-5.webp')] },
         ] },
         { title: '版本 2（18:00 ~ 6:00）', cols: 1, blocks: [
-          { label: '首頁', joined: true, srcs: [img('/projects/robins-site/v2-home-1.png'), img('/projects/robins-site/v2-home-2.png'), img('/projects/robins-site/v2-home-3.png')] },
-          { label: '最新消息', src: img('/projects/robins-site/v2-news.png') },
-          { label: '相關服務', joined: true, srcs: [img('/projects/robins-site/v2-service-1.png'), img('/projects/robins-site/v2-service-2.png'), img('/projects/robins-site/v2-service-3.png'), img('/projects/robins-site/v2-service-4.png'), img('/projects/robins-site/v2-service-5.png')] },
+          { label: '首頁', joined: true, srcs: [img('/projects/robins-site/v2-home-1.webp'), img('/projects/robins-site/v2-home-2.webp'), img('/projects/robins-site/v2-home-3.webp')] },
+          { label: '最新消息', src: img('/projects/robins-site/v2-news.webp') },
+          { label: '相關服務', joined: true, srcs: [img('/projects/robins-site/v2-service-1.webp'), img('/projects/robins-site/v2-service-2.webp'), img('/projects/robins-site/v2-service-3.webp'), img('/projects/robins-site/v2-service-4.webp'), img('/projects/robins-site/v2-service-5.webp')] },
         ] },
       ],
     },
   },
   {
-    title: '保險代理人官網', company: 'robins', jp: '代理人サイト · INSURTECH', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/insurance-agent.png'), tags: ['品牌官網', 'Vue', 'RWD'],
+    title: '保險代理人官網', company: 'robins', jp: '代理人サイト · INSURTECH', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/insurance-agent.webp'), tags: ['品牌官網', 'Vue', 'RWD'],
     cs: {
       icon: '🛡️', date: 'Created · 2024',
       intro: [
         '為保險代理人設計的形象官網，清楚傳遞品牌定位與服務說明，提供潛在客戶一個易於理解、具有信任感的入口。',
       ],
       galleries: [
-        { title: '畫面呈現', joined: true, blocks: [{ label: '畫面 1', src: img('/projects/insurance-agent/screen-1.png') }, { label: '畫面 2', src: img('/projects/insurance-agent/screen-2.png') }, { label: '畫面 3', src: img('/projects/insurance-agent/screen-3.png') }, { label: '畫面 4', src: img('/projects/insurance-agent/screen-4.png') }] },
+        { title: '畫面呈現', joined: true, blocks: [{ label: '畫面 1', src: img('/projects/insurance-agent/screen-1.webp') }, { label: '畫面 2', src: img('/projects/insurance-agent/screen-2.webp') }, { label: '畫面 3', src: img('/projects/insurance-agent/screen-3.webp') }, { label: '畫面 4', src: img('/projects/insurance-agent/screen-4.webp') }] },
       ],
     },
   },
@@ -606,7 +606,7 @@ export const FULLTIME = [
 
 export const SIDE_PROJECTS = [
   {
-    title: 'Location Base Search Engine', jp: 'LBSE · THESIS', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/lbse.avif'), coverPosition: 'center', coverScale: 1.2, tags: ['React', '.Net Core', 'MSSQL', 'API Service', 'Text Mining'],
+    title: 'Location Base Search Engine', jp: 'LBSE · THESIS', year: '2024', bg: 'var(--violet)', cover: img('/projects/covers/lbse.webp'), coverPosition: 'center', coverScale: 1.2, tags: ['React', '.Net Core', 'MSSQL', 'API Service', 'Text Mining'],
     cs: {
       icon: '📍', date: '2023 / 03 — 2024 / 06', status: '碩班論文題目，已完成開發與論文撰寫。',
       intro: [
@@ -620,26 +620,26 @@ export const SIDE_PROJECTS = [
       ],
       stack: ['React', '.Net Core', 'MSSQL', 'SQL Server Geometry', 'K6', 'Text Mining'],
       galleries: [
-        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--violet)', src: img('/projects/lbse-mindmap.png'), maxWidth: '560px' }], cols: 1 },
+        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--violet)', src: img('/projects/lbse-mindmap.webp'), maxWidth: '560px' }], cols: 1 },
         { title: '會員管理', cols: 1, blocks: [
-          { label: '會員登入', tone: 'var(--violet)', src: img('/projects/lbse/member-login.png'), maxWidth: '400px' },
-          { label: '建立應用程式', tone: 'var(--violet)', src: img('/projects/lbse/app-create.png'), maxWidth: '600px' },
-          { label: '應用程式列表', tone: 'var(--violet)', src: img('/projects/lbse/app-list.png'), maxWidth: '600px' },
-          { label: '邀請成員 · 邀請者', tone: 'var(--violet)', src: img('/projects/lbse/invite-1.png'), maxWidth: '600px' },
-          { label: '邀請成員 · 邀請者 · 成功', tone: 'var(--violet)', src: img('/projects/lbse/invite-2.png'), maxWidth: '600px' },
-          { label: '邀請成員 · 被邀請者', tone: 'var(--violet)', src: img('/projects/lbse/invite-3.png'), maxWidth: '600px' },
-          { label: '邀請成員 · 被邀請者 · 加入後', tone: 'var(--violet)', src: img('/projects/lbse/invite-4.png'), maxWidth: '600px' },
+          { label: '會員登入', tone: 'var(--violet)', src: img('/projects/lbse/member-login.webp'), maxWidth: '400px' },
+          { label: '建立應用程式', tone: 'var(--violet)', src: img('/projects/lbse/app-create.webp'), maxWidth: '600px' },
+          { label: '應用程式列表', tone: 'var(--violet)', src: img('/projects/lbse/app-list.webp'), maxWidth: '600px' },
+          { label: '邀請成員 · 邀請者', tone: 'var(--violet)', src: img('/projects/lbse/invite-1.webp'), maxWidth: '600px' },
+          { label: '邀請成員 · 邀請者 · 成功', tone: 'var(--violet)', src: img('/projects/lbse/invite-2.webp'), maxWidth: '600px' },
+          { label: '邀請成員 · 被邀請者', tone: 'var(--violet)', src: img('/projects/lbse/invite-3.webp'), maxWidth: '600px' },
+          { label: '邀請成員 · 被邀請者 · 加入後', tone: 'var(--violet)', src: img('/projects/lbse/invite-4.webp'), maxWidth: '600px' },
         ] },
         { title: '提供 API 服務', cols: 1, blocks: [
-          { label: 'API 一覽', tone: 'var(--violet)', src: img('/projects/lbse/api-list.png') },
-          { label: 'Geocoding API', tone: 'var(--violet)', src: img('/projects/lbse/geocoding-api.png'), maxWidth: '600px' },
-          { label: 'Nearby API', tone: 'var(--violet)', src: img('/projects/lbse/nearby-api.png'), maxWidth: '600px' },
-          { label: '地圖顯示', tone: 'var(--violet)', src: img('/projects/lbse/map-display.png') },
+          { label: 'API 一覽', tone: 'var(--violet)', src: img('/projects/lbse/api-list.webp') },
+          { label: 'Geocoding API', tone: 'var(--violet)', src: img('/projects/lbse/geocoding-api.webp'), maxWidth: '600px' },
+          { label: 'Nearby API', tone: 'var(--violet)', src: img('/projects/lbse/nearby-api.webp'), maxWidth: '600px' },
+          { label: '地圖顯示', tone: 'var(--violet)', src: img('/projects/lbse/map-display.webp') },
         ] },
         { title: '壓力測試', cols: 1, blocks: [
-          { label: '測試伺服器規格', tone: 'var(--violet)', src: img('/projects/lbse/stress-setup.png'), maxWidth: '420px' },
-          { label: 'Geocoding API 測試結果', tone: 'var(--violet)', src: img('/projects/lbse/stress-geocoding.png') },
-          { label: 'Nearby API 測試結果', tone: 'var(--violet)', src: img('/projects/lbse/stress-nearby.png') },
+          { label: '測試伺服器規格', tone: 'var(--violet)', src: img('/projects/lbse/stress-setup.webp'), maxWidth: '420px' },
+          { label: 'Geocoding API 測試結果', tone: 'var(--violet)', src: img('/projects/lbse/stress-geocoding.webp') },
+          { label: 'Nearby API 測試結果', tone: 'var(--violet)', src: img('/projects/lbse/stress-nearby.webp') },
         ] },
       ],
       terminal: {
@@ -656,7 +656,7 @@ export const SIDE_PROJECTS = [
     },
   },
   {
-    title: 'iDriver', jp: 'ドライバー · SIDE PROJECT', year: '2023', bg: 'var(--red)', cover: img('/projects/covers/idriver.png'), coverScale: 1.2, tags: ['React', '.Net Core', 'MSSQL', 'GCP Maps & Distance Matrix', 'Crawler'],
+    title: 'iDriver', jp: 'ドライバー · SIDE PROJECT', year: '2023', bg: 'var(--red)', cover: img('/projects/covers/idriver.webp'), coverScale: 1.2, tags: ['React', '.Net Core', 'MSSQL', 'GCP Maps & Distance Matrix', 'Crawler'],
     cs: {
       icon: '🛣️', date: '2023 / 11', status: '大專校院資訊應用服務創新競賽參賽作品。',
       intro: [
@@ -676,20 +676,20 @@ export const SIDE_PROJECTS = [
         { label: 'YouTube Demo', url: 'https://www.youtube.com/watch?v=Qa9NNl3Gir8&t=1s' },
       ],
       galleries: [
-        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--red)', src: img('/projects/idriver-mindmap.png'), maxWidth: '560px' }], cols: 1 },
-        { title: '整合目標', blocks: [{ label: '整合的目標網站', tone: 'var(--red)', src: img('/projects/idriver/target-sites.png') }], cols: 1 },
+        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--red)', src: img('/projects/idriver-mindmap.webp'), maxWidth: '560px' }], cols: 1 },
+        { title: '整合目標', blocks: [{ label: '整合的目標網站', tone: 'var(--red)', src: img('/projects/idriver/target-sites.webp') }], cols: 1 },
         { title: '畫面呈現', cols: 1, blocks: [
-          { label: '路線規劃', tone: 'var(--red)', src: img('/projects/idriver/route.png') },
-          { label: '即時路況', tone: 'var(--red)', src: img('/projects/idriver/realtime.png') },
-          { label: '附近 POIs', tone: 'var(--red)', src: img('/projects/idriver/nearby-pois.png') },
-          { label: '導航畫面', tone: 'var(--red)', src: img('/projects/idriver/navigation.png') },
-          { label: '導航功能 · 警告提示', tone: 'var(--red)', src: img('/projects/idriver/navigation-2.png') },
+          { label: '路線規劃', tone: 'var(--red)', src: img('/projects/idriver/route.webp') },
+          { label: '即時路況', tone: 'var(--red)', src: img('/projects/idriver/realtime.webp') },
+          { label: '附近 POIs', tone: 'var(--red)', src: img('/projects/idriver/nearby-pois.webp') },
+          { label: '導航畫面', tone: 'var(--red)', src: img('/projects/idriver/navigation.webp') },
+          { label: '導航功能 · 警告提示', tone: 'var(--red)', src: img('/projects/idriver/navigation-2.webp') },
         ] },
       ],
     },
   },
   {
-    title: '旅．筆記', jp: '旅行ノート · SIDE PROJECT', year: '2022', bg: 'var(--gold)', cover: img('/projects/covers/travel-note.png'), coverScale: 1.2, tags: ['React', '.Net Core', 'MSSQL', 'TDX API', 'GCP Maps & Distance Matrix'],
+    title: '旅．筆記', jp: '旅行ノート · SIDE PROJECT', year: '2022', bg: 'var(--gold)', cover: img('/projects/covers/travel-note.webp'), coverScale: 1.2, tags: ['React', '.Net Core', 'MSSQL', 'TDX API', 'GCP Maps & Distance Matrix'],
     cs: {
       icon: '🗺️', date: '2022 / 01 — 2023 / 04', status: '大四作品集，已完成開發與展示。',
       intro: [
@@ -719,22 +719,22 @@ export const SIDE_PROJECTS = [
         ],
       },
       galleries: [
-        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--gold)', src: img('/projects/travel-note-mindmap.png'), maxWidth: '560px' }], cols: 1 },
+        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--gold)', src: img('/projects/travel-note-mindmap.webp'), maxWidth: '560px' }], cols: 1 },
         { title: '畫面呈現', cols: 1, blocks: [
-          { label: '登入頁面', tone: 'var(--gold)', src: img('/projects/travel-note/login.png') },
-          { label: '首頁搜尋', tone: 'var(--gold)', src: img('/projects/travel-note/home-search.png') },
-          { label: '推薦景點', tone: 'var(--gold)', src: img('/projects/travel-note/home-spots.png') },
-          { label: '景點資訊', tone: 'var(--gold)', src: img('/projects/travel-note/spot-info.png') },
-          { label: '附近景點', tone: 'var(--gold)', src: img('/projects/travel-note/nearby-spots.png') },
-          { label: '會員收藏', tone: 'var(--gold)', src: img('/projects/travel-note/favorites.png') },
-          { label: '行程規劃', tone: 'var(--gold)', src: img('/projects/travel-note/itinerary.png') },
-          { label: '行程規劃 · Demo 簡易版本', tone: 'var(--gold)', src: img('/projects/travel-note/itinerary-demo.png') },
+          { label: '登入頁面', tone: 'var(--gold)', src: img('/projects/travel-note/login.webp') },
+          { label: '首頁搜尋', tone: 'var(--gold)', src: img('/projects/travel-note/home-search.webp') },
+          { label: '推薦景點', tone: 'var(--gold)', src: img('/projects/travel-note/home-spots.webp') },
+          { label: '景點資訊', tone: 'var(--gold)', src: img('/projects/travel-note/spot-info.webp') },
+          { label: '附近景點', tone: 'var(--gold)', src: img('/projects/travel-note/nearby-spots.webp') },
+          { label: '會員收藏', tone: 'var(--gold)', src: img('/projects/travel-note/favorites.webp') },
+          { label: '行程規劃', tone: 'var(--gold)', src: img('/projects/travel-note/itinerary.webp') },
+          { label: '行程規劃 · Demo 簡易版本', tone: 'var(--gold)', src: img('/projects/travel-note/itinerary-demo.webp') },
         ] },
       ],
     },
   },
   {
-    title: '系統規格書自動生成系統', jp: '自動生成 · INTERNSHIP', year: '2022', bg: 'var(--ink)', cover: img('/projects/covers/spec-gen.png'), coverScale: 1.2, tags: ['React', '.Net Core', 'MSSQL', 'SQL Schema'],
+    title: '系統規格書自動生成系統', jp: '自動生成 · INTERNSHIP', year: '2022', bg: 'var(--ink)', cover: img('/projects/covers/spec-gen.webp'), coverScale: 1.2, tags: ['React', '.Net Core', 'MSSQL', 'SQL Schema'],
     cs: {
       icon: '📄', date: '2022 / 07 — 2022 / 08', status: '暑期實習作品，已完成開發與交付。',
       intro: [
@@ -754,40 +754,40 @@ export const SIDE_PROJECTS = [
         { label: 'DEMO 影片', url: 'https://youtu.be/UWTwwQBIj54' },
       ],
       galleries: [
-        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--ink)', src: img('/projects/sqlschema-mindmap.png'), maxWidth: '560px' }], cols: 1 },
+        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--ink)', src: img('/projects/sqlschema-mindmap.webp'), maxWidth: '560px' }], cols: 1 },
         { title: '資料庫瀏覽', cols: 1, blocks: [
-          { label: '資料庫使用狀態及使用者資訊', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse.png') },
-          { label: '資料庫使用狀態 · 續', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-2.png') },
-          { label: '資料表詳細資訊 1', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-3.png') },
-          { label: '資料表詳細資訊 2', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-4.png') },
-          { label: '資料表詳細資訊 3', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-5.png') },
-          { label: 'View / Function / Procedure Script', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-6.png') },
+          { label: '資料庫使用狀態及使用者資訊', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse.webp') },
+          { label: '資料庫使用狀態 · 續', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-2.webp') },
+          { label: '資料表詳細資訊 1', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-3.webp') },
+          { label: '資料表詳細資訊 2', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-4.webp') },
+          { label: '資料表詳細資訊 3', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-5.webp') },
+          { label: 'View / Function / Procedure Script', tone: 'var(--ink)', src: img('/projects/sqlschema/db-browse-6.webp') },
         ] },
         { title: '資料庫註解', cols: 1, blocks: [
-          { label: '資料庫註解', tone: 'var(--ink)', src: img('/projects/sqlschema/db-comment.png') },
-          { label: '資料庫註解 · 編輯中', tone: 'var(--ink)', src: img('/projects/sqlschema/db-comment-2.png') },
+          { label: '資料庫註解', tone: 'var(--ink)', src: img('/projects/sqlschema/db-comment.webp') },
+          { label: '資料庫註解 · 編輯中', tone: 'var(--ink)', src: img('/projects/sqlschema/db-comment-2.webp') },
         ] },
         { title: '生成文件', cols: 1, blocks: [
-          { label: '選擇欲輸出的文件類別', tone: 'var(--ink)', src: img('/projects/sqlschema/generate.png') },
-          { label: '輸出文件', tone: 'var(--ink)', src: img('/projects/sqlschema/generate-2.png') },
+          { label: '選擇欲輸出的文件類別', tone: 'var(--ink)', src: img('/projects/sqlschema/generate.webp') },
+          { label: '輸出文件', tone: 'var(--ink)', src: img('/projects/sqlschema/generate-2.webp') },
         ] },
         { title: '磁碟使用量', cols: 1, blocks: [
-          { label: '磁碟空間使用狀況', tone: 'var(--ink)', src: img('/projects/sqlschema/disk.png') },
-          { label: '各資料表空間使用狀況', tone: 'var(--ink)', src: img('/projects/sqlschema/disk-2.png') },
+          { label: '磁碟空間使用狀況', tone: 'var(--ink)', src: img('/projects/sqlschema/disk.webp') },
+          { label: '各資料表空間使用狀況', tone: 'var(--ink)', src: img('/projects/sqlschema/disk-2.webp') },
         ] },
         { title: '值的分布狀態', cols: 1, blocks: [
-          { label: '唯一值狀態 1', tone: 'var(--ink)', src: img('/projects/sqlschema/values-1.png') },
-          { label: '唯一值狀態 2', tone: 'var(--ink)', src: img('/projects/sqlschema/values-2.png') },
-          { label: 'Data type 分布', tone: 'var(--ink)', src: img('/projects/sqlschema/values-3.png') },
+          { label: '唯一值狀態 1', tone: 'var(--ink)', src: img('/projects/sqlschema/values-1.webp') },
+          { label: '唯一值狀態 2', tone: 'var(--ink)', src: img('/projects/sqlschema/values-2.webp') },
+          { label: 'Data type 分布', tone: 'var(--ink)', src: img('/projects/sqlschema/values-3.webp') },
         ] },
         { title: '風險評估', cols: 1, blocks: [
-          { label: '風險評估', tone: 'var(--ink)', src: img('/projects/sqlschema/risk.png') },
+          { label: '風險評估', tone: 'var(--ink)', src: img('/projects/sqlschema/risk.webp') },
         ] },
       ],
     },
   },
   {
-    title: 'iEat', jp: 'イート · SIDE PROJECT', year: '2020', bg: 'var(--lettuce)', cover: img('/projects/covers/ieat.png'), tags: ['React', 'Node.js', 'MSSQL', 'GCP API', 'AHP'],
+    title: 'iEat', jp: 'イート · SIDE PROJECT', year: '2020', bg: 'var(--lettuce)', cover: img('/projects/covers/ieat.webp'), tags: ['React', 'Node.js', 'MSSQL', 'GCP API', 'AHP'],
     cs: {
       icon: '🍽️', date: '2019 / 07 — 2020 / 08', status: '大三專題，已完成開發與展示。',
       intro: [
@@ -801,18 +801,18 @@ export const SIDE_PROJECTS = [
       ],
       stack: ['React', 'Node.js', 'MSSQL', 'GCP Maps API', 'LBSE', 'AHP 演算法'],
       galleries: [
-        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--lettuce)', src: img('/projects/ieat-mindmap.png'), maxWidth: '560px' }], cols: 1 },
+        { title: '功能規劃', blocks: [{ label: '心智圖', tone: 'var(--lettuce)', src: img('/projects/ieat-mindmap.webp'), maxWidth: '560px' }], cols: 1 },
         { title: '客觀評分計算', cols: 1, blocks: [
-          { label: 'AHP 比較矩陣', tone: 'var(--lettuce)', src: img('/projects/ieat/ahp-matrix.png'), maxWidth: '580px' },
-          { label: '評分加權', tone: 'var(--lettuce)', src: img('/projects/ieat/ahp-score.png'), maxWidth: '580px' },
-          { label: '常態分布判別方式', tone: 'var(--lettuce)', src: img('/projects/ieat/ahp-normal.png'), maxWidth: '580px' },
+          { label: 'AHP 比較矩陣', tone: 'var(--lettuce)', src: img('/projects/ieat/ahp-matrix.webp'), maxWidth: '580px' },
+          { label: '評分加權', tone: 'var(--lettuce)', src: img('/projects/ieat/ahp-score.webp'), maxWidth: '580px' },
+          { label: '常態分布判別方式', tone: 'var(--lettuce)', src: img('/projects/ieat/ahp-normal.webp'), maxWidth: '580px' },
         ] },
         { title: '畫面呈現', cols: 1, blocks: [
-          { label: '登入頁面', tone: 'var(--lettuce)', src: img('/projects/ieat/login.png') },
-          { label: '首頁', tone: 'var(--lettuce)', src: img('/projects/ieat/home.png') },
-          { label: '首頁 · 篩選', tone: 'var(--lettuce)', src: img('/projects/ieat/home-2.png') },
-          { label: '餐廳詳情', tone: 'var(--lettuce)', src: img('/projects/ieat/restaurant.png') },
-          { label: '地圖服務', tone: 'var(--lettuce)', src: img('/projects/ieat/map.png') },
+          { label: '登入頁面', tone: 'var(--lettuce)', src: img('/projects/ieat/login.webp') },
+          { label: '首頁', tone: 'var(--lettuce)', src: img('/projects/ieat/home.webp') },
+          { label: '首頁 · 篩選', tone: 'var(--lettuce)', src: img('/projects/ieat/home-2.webp') },
+          { label: '餐廳詳情', tone: 'var(--lettuce)', src: img('/projects/ieat/restaurant.webp') },
+          { label: '地圖服務', tone: 'var(--lettuce)', src: img('/projects/ieat/map.webp') },
         ] },
       ],
     },
