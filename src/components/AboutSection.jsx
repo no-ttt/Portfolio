@@ -48,7 +48,7 @@ export function AboutSection() {
               borderRadius: 28, boxShadow: 'var(--pop-8)',
               overflow: 'hidden',
             }}>
-              <img src="/about.png" alt="Tina" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+              <img src={`${import.meta.env.BASE_URL}about.png`} alt="Tina" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
             </div>
             <span style={{ position: 'absolute', top: -16, left: -14 }}>
               <PTag color="gold">Freelance · 自由接案</PTag>
