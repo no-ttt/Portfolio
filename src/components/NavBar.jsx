@@ -10,7 +10,7 @@ const NAV_ITEMS = [
   { id: 'contact',  zh: '聯絡我們', en: 'Contact' },
 ];
 
-export function NavBar() {
+export function NavBar({ items = NAV_ITEMS }) {
   const location = useLocation();
   const navigate = useNavigate();
   const [scrollActive, setScrollActive] = useState('about');
@@ -23,7 +23,7 @@ export function NavBar() {
     if (isProjectPage) return;
 
     const observers = [];
-    NAV_ITEMS.forEach(({ id }) => {
+    items.forEach(({ id }) => {
       const el = document.getElementById(id);
       if (!el) return;
       const obs = new IntersectionObserver(
@@ -83,7 +83,7 @@ export function NavBar() {
 
         {/* Desktop nav */}
         <div className="nav-right" style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-          {NAV_ITEMS.map(({ id, zh, en }) => navBtn(id, zh, en))}
+          {items.map(({ id, zh, en }) => navBtn(id, zh, en))}
         </div>
 
         {/* Hamburger */}
@@ -114,7 +114,7 @@ export function NavBar() {
 
       {/* Mobile menu */}
       <div className={`nav-right${menuOpen ? ' open' : ''}`} style={{ display: 'none' }}>
-        {NAV_ITEMS.map(({ id, zh, en }) => navBtn(id, zh, en))}
+        {items.map(({ id, zh, en }) => navBtn(id, zh, en))}
       </div>
     </>
   );

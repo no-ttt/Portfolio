@@ -22,7 +22,7 @@ export function Footer() {
           opacity: 0.7,
         }}
       >
-        © 2026 PLANETOÑO Studio · 惑星ちゃん · Made in low gravity
+        © 2026 version 1.0.0 — Tina Dai
       </span>
     </footer>
   );

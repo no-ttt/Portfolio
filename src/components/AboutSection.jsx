@@ -26,7 +26,7 @@ const TREE = [
   ['🗺️', '地圖與爬蟲',   [['Google Map / Mapbox', 4], ['Leaflet', 4], ['Selenium', 4], ['BeautifulSoup', 4]]],
 ];
 
-export function AboutSection() {
+export function AboutSection({ mode = 'freelance' }) {
   return (
     <>
       <section id="about" style={{
@@ -51,7 +51,7 @@ export function AboutSection() {
               <img src={`${import.meta.env.BASE_URL}about.png`} alt="Tina" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
             </div>
             <span style={{ position: 'absolute', top: -16, left: -14 }}>
-              <PTag color="gold">Freelance · 自由接案</PTag>
+              <PTag color="gold">{mode === 'interview' ? '軟體工程師' : 'Freelance · 自由接案'}</PTag>
             </span>
           </div>
 
@@ -72,6 +72,11 @@ export function AboutSection() {
             <p style={{ fontWeight: 500, fontSize: '1.08rem', lineHeight: 1.6, color: 'var(--text-body)', margin: '0 0 26px', maxWidth: '60ch' }}>
               喜歡好看的東西，在前端設計上格外挑剔 — 美麗的介面不只是視覺享受，更是對細節的追求與對用戶體驗的關懷。
             </p>
+            <div style={{ marginBottom: 16 }}>
+              <a href="https://www.cake.me/s--qffrCkrUmgM8z4CB7yQxkw--/no-a0310d" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <PTag color="gold" clickable>履歷 · Resume ↗</PTag>
+              </a>
+            </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 14 }}>
               {FACTS.map(([n, l]) => (
                 <div key={l} style={{ background: 'var(--white)', border: '3px solid var(--ink)', borderRadius: 16, boxShadow: 'var(--pop-3)', padding: '16px 12px', textAlign: 'center' }}>

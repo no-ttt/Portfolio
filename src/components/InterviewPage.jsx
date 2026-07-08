@@ -1,10 +1,17 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { NavBar } from './NavBar';
+import { Hero } from './Hero';
+import { AboutSection } from './AboutSection';
 import { Footer } from './Footer';
 import { PSparkle } from './PSparkle';
 import { PTag } from './PTag';
 import { FREELANCE, FULLTIME, SIDE_PROJECTS, COMPANIES } from '../data/projects';
+
+const INTERVIEW_NAV = [
+  { id: 'about', zh: '關於', en: 'About' },
+  { id: 'work',  zh: '作品集', en: 'Work' },
+];
 
 const CATS = [
   { id: 'brand',    icon: '🌐', name: '品牌官網',  en: 'Brand site' },
@@ -74,10 +81,12 @@ export function InterviewPage() {
 
   return (
     <div style={{ position: 'relative' }}>
-      <NavBar />
+      <NavBar items={INTERVIEW_NAV} />
+      <Hero />
+      <AboutSection mode="interview" />
 
       {/* 正職 */}
-      <section style={{ background: 'var(--violet)', borderBottom: '3.5px solid var(--ink)', padding: 'clamp(48px,6vw,88px) clamp(16px,4vw,48px)' }}>
+      <section id="work" style={{ background: 'var(--violet)', borderBlock: '3.5px solid var(--ink)', padding: 'clamp(48px,6vw,88px) clamp(16px,4vw,48px)' }}>
         <div className="pl-container">
           <SectionHeader
             kicker="正職經歷 · IN-HOUSE"
