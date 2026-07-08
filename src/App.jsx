@@ -9,6 +9,7 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { PageDecorations } from './components/PageDecorations';
 import { ProjectPage } from './components/ProjectPage';
+import { InterviewPage } from './components/InterviewPage';
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/project/:title" element={<ProjectPage />} />
+      <Route path="/interview" element={<InterviewPage />} />
     </Routes>
   );
 }
